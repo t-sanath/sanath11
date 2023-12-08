@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>Form Validation</title>
+        <script>
+            function validate()
+            {
+                if(document.getElementById("t1").value=="")
+                {
+                    alert("Pkease provide your name!");
+                    document.getElementById("t1").focus();
+                    return false;
+                }
+                if( document.getelementById("t2").value=="")
+                {
+                    alert("Please proide your Email!");
+                    document.getElementById("t2").focus();
+                    return false;
+                }
+                if(document.getElementById("t3").value="")
+                {
+                    alert ("Please provide a zip code.");
+                    document.getElementById("t3").focus();
+                }
+                if(document.getElementById("t4").value="")
+                {
+                    alert("Please provide your country!")
+                }
+
+            }
+        </script>
+    </head>
+</html>
